@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple-Form</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="form-container">
+        <form action="simpleform">
+            <h2>Simple Registration Form</h2>
+            <label for="name"> Enter your name</label>
+            <input type="text" name="name" id=" name" required placeholder="Enter Your Valid Name"><br><br>
+            <!--CNIC -->
+            <label for="CNIC"> Enter your CNIC No </label>
+            <input type="text" name="" id=" cnic" required placeholder="Enter Your CNIC No"><br><br>
+            <!-- Address
+            <label for="address"> Enter your Address </label>
+            <input type="address" name="address" id=" address" required placeholder="Enter Your Address" row="4">
+            <br><br> -->
+            <!-- Gender-->
+            <label>Gender</label>
+            <div>
+                <input type="radio" id="male" name="gender" value="Male" required>
+                <label for="male"> Male</label>
+                
+                <input type="radio" id="female" name="gender" value="Female" required>
+                <label for="female">Female</label>
+                <br><br>
+                <label>Hobbies</label>
+                <div>
+                    <input type="checkbox" id="reading" name="hobbies" value="Reading">
+                    <label for="reading">Reading</label>
+
+                    <input type="checkbox" id="sports" name="hobbies" value="Sports">
+                    <label for="sports">Sports</label>
+
+                    <input type="checkbox" id="travelling" name="hobbies" value="Travelling">
+                    <label for="travelling">Travelling</label>
+
+                    <input type="checkbox" id="singing" name="hobbies" value="Singing">
+                    <label for="singingg">Singing</label>
+                </div>
+                <label for="address"> Address</label>
+                <textarea name="adddress" id="address"  rows="03"></textarea>
+<br><br>
+            <button type="submit"> Submit</button>
+            <button type="reset"> Cancel</button>
+
+            </div>
+           
+        </form>
+    </div>
+</body>
+</html>
